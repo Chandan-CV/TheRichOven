@@ -1,0 +1,19 @@
+.Image{
+    width: 100vw;
+}
+.bestS{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.line{
+    height: 1px;
+    background-color: black;
+    width: 45vw ;
+}
+.BestsellerText{
+font-size: 1.7vw;
+}

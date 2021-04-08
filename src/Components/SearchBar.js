@@ -9,11 +9,10 @@ function SearchBar() {
         src={searchIcon}
         />   
         
-        <input className="main" 
+        <Input className="main" 
             placeholder="Search"
             >
-            
-            </input>
+            </Input>
            
         </div>
     )

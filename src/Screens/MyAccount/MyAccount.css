@@ -1,0 +1,22 @@
+.accDetails{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:600px){
+    .accDetails{
+        flex-direction: column;
+    }
+    .left,.right{
+            margin: 0px 10vw;
+    }
+}

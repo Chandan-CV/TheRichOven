@@ -11,6 +11,7 @@ justify-content: space-between;
 margin-left:  3vw;
 max-width: 14vw ;
  min-width: 100px;
+ cursor: pointer;
 }
 .midHeader{
     align-items: center;
@@ -50,4 +51,43 @@ max-width: 14vw ;
     font-weight: 400;
    cursor: pointer;
    color: #E2B520;
+}
+.mobileFriendly{
+    display: none;
+}
+.logoM{
+    margin-left:  3vw;
+max-width: 14vw ;
+ min-width: 100px;
+}
+.upperMobileHeader{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+}
+.hamburger{
+    cursor: pointer;
+}
+
+@media (max-width:900px){
+    .midHeader{
+        display: none;
+    }
+    .rightHeader{
+        display: none;
+    }
+    .bottomHeader{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .mobileFriendly{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: space-between;
+       margin: 0px 5px;
+    }
 }

@@ -1,5 +1,5 @@
 .Image{
-    width: 100vw;
+    width: 100%;
 }
 .bestS{
     margin-top: 4vh;
@@ -12,8 +12,47 @@
 .line{
     height: 1px;
     background-color: black;
-    width: 45vw ;
+    width: 40vw ;
 }
 .BestsellerText{
-font-size: 1.7vw;
+font-size:20px;
 }
+.bestsellers{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none; 
+}
+.bestsellers::-webkit-scrollbar{
+    display: none;
+}
+.scrollLeft{
+    align-self: center;
+ position: absolute;
+}
+.scrollRight{
+    align-self: center;
+   right: 0px;
+  position: absolute ;
+}
+
+@media (max-width:650px){
+    .scrollLeft{
+        display: none;
+    }.scrollRight{
+        display: none;
+    }
+    .BestsellerText{
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width:800px){
+    .BestsellerText{
+        font-size: 17px;
+    }
+}
+

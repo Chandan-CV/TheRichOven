@@ -1,0 +1,25 @@
+.Footer{
+    background-color: black;
+    height: 250px;
+}
+.SC{
+    color: yellow;
+    font-size: 20px;
+    margin-top: 30px;
+    
+    
+}
+.scDiv{
+    object-fit: contain;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+.connectLogo{
+    object-fit: contain;
+    margin: 2px 10px;
+    width: 30px;
+   
+}
